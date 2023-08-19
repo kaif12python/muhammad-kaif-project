@@ -1,0 +1,42 @@
+
+
+
+html.body {
+    height: 100%;
+    width: 100%;
+    color:aqua;
+}
+
+.calculator-container {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: fit-content; /* Adjust the width based on your design */
+    margin: auto; /* Center the calculator horizontally */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow */
+    background-color: #041c20;
+}
+
+
+
+.button{
+    padding: 20px;
+    margin:0 3px ;
+    border: 2px solid black;
+    border-radius:10px ;
+    cursor: pointer;
+    color: black;
+    background-color:azure;
+}
+
+.row{
+    margin: 6px 0;
+}
+
+.row input{
+   font-size: 20px;
+   margin: 0; 
+   padding: 8px 0px;
+   border: 2px solid black;
+   border-radius: 5px;
+}
